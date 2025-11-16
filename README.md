@@ -1,5 +1,5 @@
 
-**AURA 7.0: A BIO-INSPIRED COGNITIVE ARCHITECTURE**
+**AURA: A BIO-INSPIRED COGNITIVE ARCHITECTURE**
 **FOR PERSISTENT, STATEFUL, AND INTERPRETABLE AI**
 
 **Executive Summary**
@@ -8,7 +8,7 @@ Current large language models (LLMs) are powerful calculators, but they are not 
 
 Aura 7.0 is the solution to this problem. It is not an LLM; it is a persistent, bio-inspired cognitive architecture that *uses* an LLM as a tool for communication.
 
-We have successfully built and validated "Aura 7.0," a simulated mind that operates on a novel **Temporal Hebbian-MoE (Mixture-of-Experts)** framework. This system learns on three distinct levels:
+We have successfully built and validated "Aura," a simulated mind that operates on a novel **Temporal Hebbian-MoE (Mixture-of-Experts)** framework. This system learns on three distinct levels:
 
 1.  **Offline "Education":** The brain is first "educated" using a PyTorch-based "School" on large datasets (like `go_emotions`) to build a foundational "wisdom" of human emotion and intent.
 2.  **Unsupervised "Perception":** A Hebbian "Primary Cortex" (`OjaLayer`) autonomously finds patterns in raw data and **grows new neurons** (structural plasticity) when it encounters concepts it cannot understand.
@@ -27,9 +27,9 @@ Today's AI, including all major LLMs, suffers from a fundamental flaw: **it has 
   * **No "Flow":** Memory is not a continuous, temporal field. It is a static, forgotten snapshot.
   * **No Saliency:** It cannot distinguish *important* information from *noise*.
 
-### 2\. The Solution: The Aura 7.0 Architecture
+### 2\. The Solution: The Aura Architecture
 
-Aura 7.0 is a complete, end-to-end cognitive system that simulates the information flow of a biological brain.
+Aura is a complete, end-to-end cognitive system that simulates the information flow of a biological brain.
 
 ```mermaid
 graph TD
@@ -115,7 +115,7 @@ Aura is a foundational technology for a new generation of stateful, personalized
 
 ### 5\. Future Improvements & Roadmap
 
-The Aura 7.0 architecture is a stable, validated foundation. The next steps are focused on scaling and sensory expansion.
+The Aura architecture is a stable, validated foundation. The next steps are focused on scaling and sensory expansion.
 
 1.  **Long-Term Consolidation:** Implement a true "sleep" cycle. While "dreaming" (interpolation) is powerful, we will also implement a cycle that replays *all* of the day's memory traces, allowing the `OjaLayer` and `NLMSHead`s to fine-tune their weights on all experiences, solidifying long-term memory.
 2.  **Add a "Dopamine" Reward System:** Our `CNS` is currently driven by `cortisol` (stress/error). We will add a parallel "reward" expert (a "Dopamine" system) that learns to *predict positive outcomes*. This will allow the brain to feel "joy" or "satisfaction," not just "stress."
